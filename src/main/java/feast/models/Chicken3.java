@@ -9,7 +9,7 @@ public class Chicken3 {
 
     private Pig4 pig4;
     @Autowired
-    public void Chicken3(Pig4 pig4) {
+    public void setPig4(Pig4 pig4) {
         this.pig4 = pig4;
     }
 
