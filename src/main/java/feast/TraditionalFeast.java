@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TraditionalFeast {
-
+    @Autowired
     private Fish1 fish;
 
     public String getTraditionalFeast() {

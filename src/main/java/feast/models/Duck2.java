@@ -3,8 +3,12 @@ package feast.models;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Duck2 {
-    @Autowired
-    private Chicken3 chicken3;
+
+    private final Chicken3 chicken3;
+
+    public Duck2(Chicken3 chicken3) {
+        this.chicken3 = chicken3;
+    }
 
     @Override
     public String toString() {
